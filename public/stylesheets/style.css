@@ -1,0 +1,502 @@
+body {
+  padding: 0px;
+}
+a {
+  color: #00B7FF;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.row>* {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+#login .form-head{
+  margin-top: 120px;
+  padding-left: 55px !important;
+  padding-right: 55px !important;
+}
+
+#login .form-head h1{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+
+
+  color: #000000;
+  margin-top: 24px;
+}
+
+#login .form-content {
+  padding-left: 55px !important;
+  padding-right: 55px !important;
+}
+
+#login .form-content button {
+  width: 100%;
+  background: #0D28A6;
+  border-radius: 2px;
+  margin-top: 16px;
+}
+
+#login .form-content label{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+
+  color: #222222;
+}
+
+#login .form-content input{
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+#table-car body {
+  font-family: Hevetica;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+#table-car thead{
+  background: #CFD4ED;
+}
+
+#table-car .drop .form-select {
+  width: 62px;
+  height: 36px;
+font-size: 12px;
+}
+
+#table-car .jtp .form-select {
+  width: 76px;
+  height: 36px;
+  font-size: 12px;
+}
+#table-car .paging nav{
+  display: flex;
+justify-content: flex-end;
+}
+
+#table-car a.page-link {
+  height: 38px;
+  width: 38px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #8A8A8A;
+}
+#table-car .page-item.active .page-link{
+  background: #CFD4ED;
+  color: #0D28A6;
+  border-color: #0D28A6;
+}
+#table-car .form-select{
+  display: inline;
+}
+#table-car .btn{
+  display: inline;
+  background: #0D28A6;
+  color: #fff;
+  width: 43px;
+  height: 36px;
+}
+
+@font-face {
+  font-family: "helvetica";
+  src: url("Helvetica.ttf") format("truetype");
+}
+
+#listCar body {
+  margin: 0;
+  padding: 0;
+  font-family: "helvetica", arial, sans-serif !important;
+}
+
+#listCar h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700 !important;
+}
+
+#listCar p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+#listCar .container-list-car {
+  width: 1100px;
+  background-color: #e5e5e5;
+  padding-left: 25px;
+  padding-top: 27px;
+  padding-right: 24px;
+  margin: auto;
+}
+
+#listCar .container-list-car .btn-group button {
+  font-size: 14px;
+}
+
+#listCar span.list-car {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  margin-top: 27px;
+}
+
+#listCar .btn.btn-primary {
+  background-color: #0d28a6;
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 14px;
+  height: 36px;
+  width: 142px;
+}
+
+#listCar .btn.btn-outline-primary {
+  border: 1px solid #aeb7e1;
+  color: #aeb7e1;
+  border-radius: 2px;
+  font-weight: 700;
+  background-color: white;
+  margin-right: 16px;
+}
+
+#listCar .btn.btn-outline-primary:hover {
+  color: #0d28a6;
+  background-color: #cfd4ed;
+}
+
+#listCar .list-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#listCar .card {
+  width: 351px;
+  height: 482px;
+  margin-top: 32px;
+  display: flex;
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+#listCar .card .card-body h5.card-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  margin-bottom: 47px;
+}
+
+#listCar .card .card-body h6 {
+  margin-bottom: 1rem;
+}
+
+#listCar .card .card-body .btn-group button img {
+  padding: 0 7px;
+}
+
+#listCar .card .card-body p.card-text img {
+  padding-right: 9.5px;
+}
+
+#listCar .btn.btn-danger {
+  width: 143.5px;
+  height: 48px;
+  background-color: white;
+  color: red;
+  font-weight: 700;
+  padding: 8px 12px;
+  margin-right: 16px;
+}
+#listCar .btn.btn-danger:hover {
+  background-color: white;
+  color: red;
+}
+#listCar .btn.btn-success {
+  width: 143.5px;
+  height: 48px;
+  background-color: #5cb85f;
+  color: white;
+  font-weight: 700;
+  padding: 8px 12px;
+}
+
+#listCar .btn.btn.btn-success:hover {
+  background-color: #5cb85f;
+  color: white;
+}
+
+#addNew body {
+  height: 100vh;
+  background-color: #e5e5e5;
+}
+
+#addNew ::-webkit-file-upload-button {
+  display: none;
+}
+
+#addNew .sub-tree i {
+  position: relative;
+  top: 5px;
+}
+
+#addNew a:hover {
+  color: blue !important;
+}
+
+#addNew .sub-tree a {
+  color: black;
+  text-decoration: inherit;
+}
+
+#addNew input[type='file'] {
+  opacity: 70%;
+}
+
+#addNew .form-body {
+  margin-top: 30px;
+  background-color: rgb(255, 255, 255);
+  padding: 2%;
+}
+
+#addNew input {
+  max-width: 560px;
+}
+
+#addNew .row {
+  padding-bottom: 2%;
+}
+
+#addNew .footer {
+  position: relative;
+  bottom: -150px;
+}
+
+#addNew .form-body p {
+  position: absolute;
+  top: 308px;
+  left: 668px;
+  opacity: 70%;
+}
+
+#addNew .form-body img {
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+#addNew footer button {
+  margin-right: 16px;
+}
+
+#addNew .btn-custom {
+  padding: 8px 12px;
+  background: #ffffff;
+  border: 1px solid #0d28a6;
+  box-sizing: border-box;
+  border-radius: 3px;
+  color: #0d28a6;
+  font-size: 14px;
+  font-weight: 700;
+  justify-content: end;
+}
+
+#addNew .btn-custom-save {
+  padding: 8px 12px;
+  background: #ffffff;
+  border: 1px solid #0d28a6;
+  box-sizing: border-box;
+  border-radius: 3px;
+  color: #0d28a6;
+  font-size: 14px;
+  font-weight: 700;
+  justify-content: end;
+}
+
+#addNew .btn-custom:hover {
+  background: #0d28a6;
+  color: #ffffff;
+  transition: 150ms linear;
+}
+
+#addNew .btn-custom-save:hover {
+  background: #0d28a6;
+  color: #ffffff;
+  transition: 150ms linear;
+}
+
+#addNew ::file-selector-button {
+  display: none;
+}
+
+#addNew .input-group-text {
+  background-color: #ffffff !important;
+  border-left: none !important;
+  cursor: pointer;
+}
+
+#addNew #file-input {
+  max-width: 518px;
+  border-right: none !important;
+  margin-bottom: 0;
+}
+
+#addNew #fileHelp {
+  margin: 0;
+}
+
+#bar body {
+  background: #F4F5F7;
+}
+
+/* CONTENT SECTION BEGIN */
+#bar .content-section {
+  margin-left: 50px;
+  margin-top: 70px;
+}
+/* CONTENT SECTION END */
+
+
+/* NAVBAR SECTION BEGIN */
+#bar .navbar-section {
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+#bar .navbar {
+  background-color: white;
+  height: 70px;
+  width: 100vw;
+}
+/* NAVBAR SECTION END */
+
+
+/* SIDEBAR SECTION BEGIN */
+#bar .collapseSidebar {
+  display:none;
+}
+#bar .main-menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #0D28A6;
+  width: 70px;
+  height: 100vh;
+  color: white !important;
+  font-size: 12px;
+}
+
+#bar .main-menu a,
+#bar .main-menu a:hover {
+  color: white !important;
+  text-decoration: none;
+}
+
+#bar .box {
+  height: 70px;
+}
+
+#bar .box:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+#bar .side-icon {
+  width: 30px;
+}
+
+#bar .menu-list {
+  position: fixed;
+  top: 70px;
+  left: 70px;
+  width: 220px;
+  height: 100vh;
+  background-color: white;
+}
+
+#bar .list-menu {
+  font-weight: 700;
+  padding: 12px 18px;
+}
+
+#bar.list-menu:hover {
+  background-color: #CFD4ED;
+}
+
+#bar.menu-list a {
+  color: black;
+  text-decoration: none;
+}
+/* SIDEBAR SECTION END */
+
+
+/* ----------------------------------------------------- */
+/* ------------ CSS CONTENT START FROM HERE ------------ */
+/* ----------------------------------------------------- */
+
+
+/* ADD NEW CAR BEGIN */
+#bar .sub-tree i {
+  position: relative;
+  top: 5px;
+}
+
+#bar a:hover {
+  color: blue !important;
+}
+
+#bar .sub-tree a {
+  color: black;
+  text-decoration: inherit;
+}
+
+#bar .icon {
+  background-size: 20px;
+  background-origin: content-box, padding-box;
+  cursor: pointer;
+}
+
+#bar .btn-decision {
+  /* position: relative;
+  bottom: -80px; */
+  margin-top: 100px;
+}
+
+#bar .btn-cancel,
+#bar .btn-save {
+  padding: 8px 12px;
+  border: 2px #0D28A6 solid;
+  color: #0D28A6;
+  font-weight: 700;
+}
+
+#bar .btn-cancel:hover,
+#bar .btn-save:hover {
+  padding: 8px 12px;
+  background: #0D28A6;
+  color: white;
+  font-weight: 700;
+}
+/* ADD NEW CAR END */
+
